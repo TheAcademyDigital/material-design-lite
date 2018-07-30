@@ -22,6 +22,13 @@ browsers, and offers an experience that is accessible from the get-go.
 > No further development is taking place in MDL by the core team, but we are happy to review PRs, fix critical bugs and
 > push out new releases. No breaking changes will be accepted.
 
+## AMPAS notes
+If pulling from upstream, make sure that the import line in line 21 has an .scss extension in src/templates.scss
+
+```scss
+@import "styleguide.scss";
+``` 
+
 ## Use MDL on your site?
 
 **This document is targeted at developers that will contribute to or compile
